@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ui.ProductosActivity1">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="92dp"
+        android:text="Productos de Altared"
+        android:textColor="#0B0B0B"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_prod1"
+        android:layout_width="364dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:background="#05156C"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:srcCompat="@drawable/monitor" />
+
+    <TextView
+        android:id="@+id/producto_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="12dp"
+        android:text="Monitor Gamer LG"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/precio_prod1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_prod1" />
+
+    <TextView
+        android:id="@+id/precio_prod1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="72dp"
+        android:text="S/. 799.99"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_prod1" />
+
+    <TextView
+        android:id="@+id/especi_prod1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="12dp"
+        android:text="Especificaciones"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/producto_1" />
+
+    <TextView
+        android:id="@+id/descrip_prod1"
+        android:layout_width="326dp"
+        android:layout_height="260dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="40dp"
+        android:text="Tamaño (pulgadas)	23,8&quot;Tamaño (cm)	60,4cm Resolución	1920 x 1080 (FHD)Tipo de panel	IPS Ratio de Aspecto	16:9Panel Multi	BOE Module Tecnología Retroiluminación	LEDTipo Retroiluminación	Edge Retroiluminación (Matriz)	H1BTamaño de Pixel 0,2745 x 0,2745mm Brillo (Mín.)	240 cd/m² Brillo (Típ.)	300 cd/m² Gamut de Color (Mín.)	sRGB 97% (CIE1931)Gamut de Color (Típ.)	sRGB 99% (CIE1931) Profundidad de Color (Nº de colores)	16,7MColor Bit	8bit Ratio de Contraste (Mín.)	700:1Ratio de Contraste (Típ.)	1000:1 Ratio de Contraste con DFC (Dinámico)	MegaVelocidad de Respuesta	1ms (GtG) Ángulo de Visión (RC≥10)	178º (H) / 178º (V)Tratamiento Superficial	Anti-reflejos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/especi_prod1" />
+
+    <ImageView
+        android:id="@+id/btn_volver1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/exit_produc" />
+
+    <Button
+        android:id="@+id/button_comprar1"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#8BC34A"
+        android:text="Comprar"
+        app:icon="@drawable/carrito"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descrip_prod1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

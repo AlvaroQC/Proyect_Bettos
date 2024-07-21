@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ui.CatologoActivity">
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="412dp"
+        android:layout_height="83dp"
+        android:background="@color/md_cyan_500"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/btn_cata_datos"
+            android:layout_width="83dp"
+            android:layout_height="66dp"
+            android:background="#0AFFFFFF"
+            android:scaleType="fitCenter"
+            android:translationX="8dp"
+            android:translationY="8dp"
+            app:srcCompat="@drawable/user_icon"
+            tools:srcCompat="@drawable/user_icon" />
+
+        <TextView
+            android:id="@+id/precio_prod1"
+            android:layout_width="317dp"
+            android:layout_height="wrap_content"
+            android:text="ALTARED GROUP"
+            android:textAlignment="center"
+            android:textColor="#F6F5F5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:translationY="26dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Productos:"
+        android:textColor="#101010"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <ImageButton
+        android:id="@+id/btn_cata_prod_1"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/md_cyan_500"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toStartOf="@+id/btn_cata_prod_2"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19"
+        app:srcCompat="@drawable/monitor"
+        tools:srcCompat="@drawable/monitor" />
+
+    <TextView
+        android:id="@+id/producto_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="10dp"
+        android:text="Monitor Gamer LG"
+        android:textColor="#0C0C0C"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_cata_prod_1" />
+
+    <TextView
+        android:id="@+id/precio_prod2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="8dp"
+        android:text="S/. 799.99"
+        android:textColor="#101010"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/producto_2" />
+
+    <ImageButton
+        android:id="@+id/btn_cata_prod_2"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/md_cyan_500"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_cata_prod_1"
+        app:layout_constraintTop_toBottomOf="@+id/textView19"
+        app:srcCompat="@drawable/gaca"
+        tools:srcCompat="@drawable/gaca" />
+
+    <TextView
+        android:id="@+id/descrip_prod2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="48dp"
+        android:text="Case Halio Gamer"
+        android:textColor="#0C0C0C"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/producto_2"
+        app:layout_constraintTop_toBottomOf="@+id/btn_cata_prod_2" />
+
+    <TextView
+        android:id="@+id/especi_prod2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="72dp"
+        android:text="S/. 259.99"
+        android:textColor="#0C0C0C"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/precio_prod2"
+        app:layout_constraintTop_toBottomOf="@+id/descrip_prod2" />
+
+    <ImageButton
+        android:id="@+id/btn_cata_prod3"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/md_cyan_500"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toStartOf="@+id/btn_cata_prod4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/precio_prod2"
+        app:srcCompat="@drawable/mr1"
+        tools:srcCompat="@drawable/mr1" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:text="Memoria RAM DDR5"
+        android:textColor="#0E0E0E"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_cata_prod3" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="10dp"
+        android:text="S/. 189.99"
+        android:textColor="#0B0A0A"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+    <ImageButton
+        android:id="@+id/btn_cata_prod4"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/md_cyan_500"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.695"
+        app:layout_constraintStart_toEndOf="@+id/btn_cata_prod3"
+        app:layout_constraintTop_toBottomOf="@+id/especi_prod2"
+        app:srcCompat="@drawable/fa"
+        tools:srcCompat="@drawable/fa" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="32dp"
+        android:text="Mouse Gamer Logitech"
+        android:textColor="#101010"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_cata_prod4" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="72dp"
+        android:text="S/.199.99"
+        android:textColor="#090909"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView25"
+        app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+    <LinearLayout
+        android:layout_width="381dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="8dp"
+        android:background="#05156C"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.621"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25">
+
+        <LinearLayout
+            android:layout_width="127dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btn_imgregistrar"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:background="#05156C"
+                android:scaleType="fitCenter"
+                android:src="@drawable/perfile"
+                android:tint="#FFFDFD"
+                android:translationX="14dp"
+                tools:src="@drawable/perfile" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registrar"
+                android:textAlignment="center"
+                android:textColor="#FDFCFC"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="127dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btn_imghome"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:background="#05156C"
+                android:scaleType="fitCenter"
+                android:src="@drawable/home"
+                android:tint="#F6F5F5"
+                android:translationX="14dp"
+                tools:src="@drawable/home" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Home"
+                android:textAlignment="center"
+                android:textColor="#F8F6F6"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="127dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btn_imgmetodopago"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:background="#05156C"
+                android:scaleType="fitCenter"
+                android:src="@drawable/tarjeta_ga"
+                android:tint="#F8F5F5"
+                android:translationX="14dp"
+                tools:src="@drawable/tarjeta_ga" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Metodo Pago"
+                android:textAlignment="center"
+                android:textColor="#FBF9F9"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
