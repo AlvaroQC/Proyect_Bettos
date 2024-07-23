@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/getstartedplantilla"
+    android:background="@drawable/fondoss"
     tools:context=".view.ui.GetStartActivity_inicio">
 
     <ImageView
@@ -15,7 +15,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/imagenlogo"
+        app:srcCompat="@drawable/icon"
         tools:ignore="ContentDescription" />
 
     <TextView
@@ -26,8 +26,8 @@
         android:text="@string/frase_started"
         android:textAlignment="center"
         android:textColor="@color/md_blue_grey_900"
-        android:textStyle="bold"
         android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
@@ -51,12 +51,12 @@
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:layout_marginTop="24dp"
+        android:backgroundTint="@color/md_black_1000"
         android:text="@string/getstarted"
         android:textSize="24sp"
-        app:cornerRadius = "8dp"
+        app:cornerRadius="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:backgroundTint="@color/md_cyan_500"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <Button
@@ -64,11 +64,11 @@
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:layout_marginTop="15dp"
+        android:backgroundTint="@color/md_black_1000"
         android:text="@string/login_started"
         android:textSize="24sp"
-        app:cornerRadius = "8dp"
+        app:cornerRadius="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:backgroundTint="@color/md_cyan_500"
         app:layout_constraintTop_toBottomOf="@+id/btn_getstarted" />
 </androidx.constraintlayout.widget.ConstraintLayout>

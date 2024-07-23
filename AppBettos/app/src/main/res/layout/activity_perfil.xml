@@ -30,7 +30,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="#05156C"
-            android:text="Bienvenido Altared"
+            android:text="Bienvenido a Bettos"
             android:textAlignment="center"
             android:textColor="#FDFCFC"
             android:textSize="24sp"

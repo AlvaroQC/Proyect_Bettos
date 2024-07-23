@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/plantilla_metodpago"
+    android:background="@drawable/fondoss"
     tools:context=".view.ui.TipoPagoActivity">
 
     <LinearLayout
@@ -25,7 +25,7 @@
             android:layout_marginTop="-40dp"
             android:text="METODOS DE PAGO"
             android:textAlignment="center"
-            android:textColor="@color/md_white_1000"
+            android:textColor="@color/md_blue_50"
             android:textSize="33sp"
             android:textStyle="bold" />
 

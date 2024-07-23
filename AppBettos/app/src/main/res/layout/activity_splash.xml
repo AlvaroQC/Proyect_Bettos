@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.ui.SplashActivity"
-    android:background="@drawable/plantillaplash">
+    android:background="@drawable/fondoss"
+    tools:context=".view.ui.SplashActivity">
 
 
     <com.airbnb.lottie.LottieAnimationView
